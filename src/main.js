@@ -10,12 +10,12 @@ import VueFire from 'vuefire'
 Vue.use(VueFire)
 
 firebase.initializeApp({
-  apiKey: "AIzaSyBZEsrXVFrvM-bNWiJoE69zGKKiDoapU4I",
-  authDomain: "city-turorial.firebaseapp.com",
-  databaseURL: "https://city-turorial.firebaseio.com",
-  projectId: "city-turorial",
-  storageBucket: "city-turorial.appspot.com",
-  messagingSenderId: "720654638556"
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: ""
 })
 export const db = firebase.firestore()
 
